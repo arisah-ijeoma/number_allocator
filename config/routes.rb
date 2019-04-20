@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    get '/generate_number/(:value)', to: 'phone_numbers#generate_number'
+  end
 end
