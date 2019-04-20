@@ -1,25 +1,8 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # number_allocator
+
+Allocates numbers per request. Numbers can be specifically requested.
+
+If the requested number has been allocated, a new one will get allocated.
+
+
+API endpoint can be accessed on `/api/generate_number/(optional requested number)`
